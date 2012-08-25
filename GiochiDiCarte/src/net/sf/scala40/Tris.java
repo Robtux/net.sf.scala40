@@ -26,7 +26,7 @@ import java.util.EnumSet;
 
 /**
  * @author Roberto Zaniol
- * @version 0.0.0.1 (per-alpha)
+ * @version 0.0.0.1 (pre-alpha)
  *
  */
 public class Tris extends Combination{
