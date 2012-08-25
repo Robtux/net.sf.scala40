@@ -1,0 +1,12 @@
+- Definire le interfacce
+
+- La gestione deli semi e dei rank e dei jolly è un pò artificiosa. Ad esempio la enum "jolly"
+  viene passata come parametro al costruttore nelle classi Combination e PcPlayer. Sarebbe meglio
+  prevedere che essa sia accessibile dalle classi, così come per rank e suit. In fondo si tratta
+  solo di considerarle come enumerazioni di base a cui poi associare i nomi in base al processo di
+  internazionalizzazione
+  
+- Implementare l'internazionalizzazione
+
+- Modificare la classe Combination spostando i metodi getRankOrdinal e getSuitOrdinal nella classe
+  Card e nelle enumerazioni

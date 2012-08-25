@@ -1,0 +1,8 @@
+- Il metodo changeCardToJolly nella classe PcPlayer sembra non essere utilizzato.
+
+- Unificare nella classe PCPlayer i metodi calcolaCombinazioniConJolly e calcolaCombinazioniSenzaJolly in un unico metodo
+
+- Il computer sbaglia nel gestire gli scarti di carte che attaccano.
+
+- Quando un player di gestito dal computer crea una combinazine di tipo tris con un jolly, la carta che esso sostituisce non è definita.
+  Se un giocatore umano cerca di sostituirla viene risposto che la carta non corrisponde a quella che il jolly sostituisce.
